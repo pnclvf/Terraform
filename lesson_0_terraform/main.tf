@@ -49,7 +49,7 @@ resource "aws_instance" "test" {
   ami                    = "ami-0715c1897453cabd1" // AWS Linux
   instance_type          = "t2.micro" //instance type
   vpc_security_group_ids = [aws_security_group.web-sg.id]
-  # key_name               = "put your key name here"
+  # key_name               = "put your key name here1"
   tags = {
     Name = "Test insta_Lesson_1_TF"
   }
